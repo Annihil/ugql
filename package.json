@@ -16,8 +16,14 @@
     "url": "https://github.com/Annihil/ugql.git"
   },
   "keywords": [
+    "ugql",
+    "gql",
     "graphql",
-    "graphql-js"
+    "graphql-js",
+    "uws",
+    "uWebSockets",
+    "uWebSockets.js",
+    "uWebSockets-js"
   ],
   "engines": {
     "node": ">= 8.x"
