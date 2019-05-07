@@ -1,0 +1,29 @@
+{
+  "name": "ugql",
+  "version": "1.0.0",
+  "description": "µGraphQL",
+  "main": "index.mjs",
+  "author": "Annihil",
+  "license": "MIT",
+  "type": "module",
+  "module": "index.mjs",
+  "homepage": "https://github.com/Annihil/ugql",
+  "bugs": {
+    "url": "https://github.com/Annihil/ugql/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Annihil/ugql.git"
+  },
+  "keywords": [
+    "graphql",
+    "graphql-js"
+  ],
+  "engines": {
+    "node": ">= 8.x"
+  },
+  "dependencies": {
+    "graphql": "^14.2.1",
+    "uWebSockets.js": "github:uNetworking/uWebSockets.js#binaries"
+  }
+}
