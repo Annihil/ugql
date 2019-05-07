@@ -1,7 +1,7 @@
 # µGQL
 [![npm](https://img.shields.io/npm/v/ugql.svg?style=flat-square)](https://www.npmjs.com/package/ugql)
 [![license](https://img.shields.io/github/license/annihil/ugql.svg?style=flat-square)]()  
-Example usage of GraphQL with [µWebSockets.js](https://github.com/uNetworking/uWebSockets.js)
+Leveraging GraphQL-js with [µWebSockets.js](https://github.com/uNetworking/uWebSockets.js)
 
 ## Installation
 
