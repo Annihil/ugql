@@ -18,7 +18,7 @@ import ugql from 'ugql';
 
 const { buildSchema } = gql;
 const app = uWS.App();
-const ugraphql = ugql(app, true /* cors */);
+const ugraphql = ugql(app, async (res, req) => ({})/* middleware */, true /* cors */);
 
 const schema = buildSchema(`
   type Query {
@@ -54,3 +54,10 @@ You should see
 ```js
 Object { hello: "Hello world!" }
 ```
+
+# Supported request's types
+- GET with query parameter
+- POST with content-type
+    - application/json
+    - application/x-www-form-urlencoded
+    - application/graphql
