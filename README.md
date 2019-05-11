@@ -44,6 +44,9 @@ Quick test, in a developer console
 ```js
 fetch('http://localhost:9001/graphql', {
   method: 'POST',
+  headers: {
+    'Content-Type': 'application/json'
+  },
   body: JSON.stringify({ query: "{ hello }" })
 })
   .then(r => r.json())
