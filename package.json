@@ -1,7 +1,7 @@
 {
   "name": "ugql",
-  "version": "1.1.1",
-  "description": "µGraphQL",
+  "version": "1.1.2",
+  "description": "uGraphQL",
   "main": "index.mjs",
   "author": "Annihil",
   "license": "MIT",
