@@ -1,7 +1,7 @@
 {
   "name": "ugql",
-  "version": "1.1.3",
-  "description": "uGraphQL",
+  "version": "1.1.4",
+  "description": "GraphQL.js over HTTP with uWebSockets.js",
   "main": "index.mjs",
   "author": "Annihil",
   "license": "MIT",
