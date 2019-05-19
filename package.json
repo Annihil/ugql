@@ -1,6 +1,6 @@
 {
   "name": "ugql",
-  "version": "1.1.5",
+  "version": "1.1.6",
   "description": "GraphQL.js over HTTP with uWebSockets.js",
   "main": "index.mjs",
   "author": "Annihil",
@@ -30,7 +30,7 @@
     "node": ">= 8.x"
   },
   "dependencies": {
-    "graphql": "^14.2.1",
+    "graphql": "^14.3.0",
     "uWebSockets.js": "github:uNetworking/uWebSockets.js#binaries"
   }
 }
