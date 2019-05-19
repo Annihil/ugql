@@ -3,17 +3,15 @@ import querystring from 'querystring';
 
 const { graphql } = gql;
 
-const readBody = res => {
-	return new Promise(resolve => {
-		let buffer;
-		res.onData((ab, isLast) => {
-			const chunk = Buffer.from(ab);
-			buffer = buffer ? Buffer.concat([buffer, chunk]) : chunk;
-			if (!isLast) return;
-			resolve(buffer.toString());
-		});
+const readBody = res => new Promise(resolve => {
+	let buffer;
+	res.onData((ab, isLast) => {
+		const chunk = Buffer.from(ab);
+		buffer = buffer ? Buffer.concat([buffer, chunk]) : chunk;
+		if (!isLast) return;
+		resolve(buffer.toString());
 	});
-};
+});
 
 export default (app, middleware, cors = false) => (schema, root, context, fieldResolver, typeResolver) => {
 	app.any('/graphql', async (res, req) => {
