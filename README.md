@@ -1,6 +1,8 @@
 # µGQL
 [![npm](https://img.shields.io/npm/v/ugql.svg?style=flat-square)](https://www.npmjs.com/package/ugql)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](https://opensource.org/licenses/MIT)  
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](https://opensource.org/licenses/MIT)
+[![package dependencies](https://img.shields.io/david/Annihil/ugql.svg?style=flat-square)](https://david-dm.org/Annihil/ugql)
+![](https://img.shields.io/badge/benchmark-150x%20express--graphql-blueviolet.svg?style=flat-square)  
 Leveraging [GraphQL-js](https://github.com/graphql/graphql-js) with [µWebSockets.js](https://github.com/uNetworking/uWebSockets.js)
 
 ## Installation
